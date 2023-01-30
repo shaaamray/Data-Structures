@@ -1,4 +1,4 @@
-#the code below is for Minheap, we can do it for Maxheap also
+#the code below is for Minheap, we can do it for Maxheap also by altering the logic
 
 class MinHeap:
     def __init__(self):
