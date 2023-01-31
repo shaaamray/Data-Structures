@@ -28,7 +28,8 @@ class PriorityQueue:
     def show(self):
         for i in self.queue:
             print(str(i.data)+"-"+str(i.priority))
-
+    
+    #delete started with the higher priority
     def delete(self):
         store = self.queue.pop(0)
         print("Data deleted --> "+str(store.data) +" - "+str(store.priority))
